@@ -42,4 +42,33 @@
 #   return sum
 # end
 
-def number_to_full_month_name
+# def number_to_full_month_name(month_num)
+#   if (month_num == 1)
+#     return "January"
+#   elsif (month_num == 3)
+#     return "March"
+#  elsif (month_num == 9)
+#     return "September"
+#
+#   end
+# end
+
+def number_to_short_month_name(month_num)
+  if (month_num == 1)
+    return "Jan"
+  elsif (month_num == 4)
+    return "Apr"
+ elsif (month_num == 10)
+    return "Oct"
+
+  end
+end
+
+
+
+
+# def number_to_short_month_name(num)
+#   return number_to_full_month_name(num).truncate(3)
+# end
+
+# end
